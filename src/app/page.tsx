@@ -1,0 +1,25 @@
+import Hero from "@/components/home/Hero";
+import Stats from "@/components/home/Stats";
+import PerformanceSection from "@/components/home/PerformanceSection";
+import Features from "@/components/home/Features";
+import Timeline from "@/components/home/Timeline";
+import BuyVerifySection from "@/components/shared/BuyVerifySection";
+import FinalCTA from "@/components/home/FinalCTA";
+import AnimatedLine from "@/components/shared/AnimatedLine";
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <Stats />
+      <PerformanceSection />
+      <AnimatedLine />
+      <Features />
+      <AnimatedLine />
+      <Timeline />
+      <AnimatedLine />
+      <BuyVerifySection />
+      <FinalCTA />
+    </>
+  );
+}
