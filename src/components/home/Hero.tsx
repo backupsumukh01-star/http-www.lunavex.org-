@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import ParallaxContainer from "@/components/shared/ParallaxContainer";
 import ParallaxLayers from "@/components/shared/ParallaxLayers";
 import HeroVideo from "./HeroVideo";
+import ConnectWallet from "@/components/shared/ConnectWallet";
 
 function HeroContent() {
   return (
@@ -32,17 +33,12 @@ function HeroContent() {
         </p>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <ConnectWallet />
           <Link
-            href="/tokenomics"
-            className="rounded-lg bg-primary px-6 py-3 font-medium text-white transition hover:opacity-90"
+            href="/buy-on-pancakeswap"
+            className="rounded-lg border border-primary bg-card/40 px-6 py-3 font-medium text-primary transition hover:bg-card hover:border-primary"
           >
-            Explore Ecosystem
-          </Link>
-          <Link
-            href="/tokenomics"
-            className="rounded-lg border border-border px-6 py-3 font-medium text-text transition hover:border-primary hover:text-primary"
-          >
-            View Tokenomics
+            Buy Now on PancakeSwap
           </Link>
         </div>
       </motion.div>

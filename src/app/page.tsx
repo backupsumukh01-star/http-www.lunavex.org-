@@ -6,6 +6,7 @@ import Timeline from "@/components/home/Timeline";
 import BuyVerifySection from "@/components/shared/BuyVerifySection";
 import FinalCTA from "@/components/home/FinalCTA";
 import AnimatedLine from "@/components/shared/AnimatedLine";
+import PancakeSwapEmbedSection from "@/components/shared/PancakeSwapEmbedSection";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AnimatedLine />
       <BuyVerifySection />
       <FinalCTA />
+      <PancakeSwapEmbedSection />
     </>
   );
 }
