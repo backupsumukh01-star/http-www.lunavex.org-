@@ -11,6 +11,7 @@ const footerLinks = [
   { href: "/legal", label: "Legal" },
   { href: "/listing-checklist", label: "Listing" },
   { href: "/how-to-buy", label: "How to Buy" },
+  { href: "/buy-on-pancakeswap", label: "Buy on PancakeSwap" },
 ];
 
 export default function Footer() {

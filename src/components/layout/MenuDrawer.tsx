@@ -14,6 +14,7 @@ const links = [
   ["Legal", "/legal"],
   ["Listing", "/listing-checklist"],
   ["How to Buy", "/how-to-buy"],
+  ["Buy on PancakeSwap", "/buy-on-pancakeswap"],
 ];
 
 export default function MenuDrawer({
